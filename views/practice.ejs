@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= Title%></title>
+</head>
+<body>
+    <h1>My PlayGround For EJS</h1>
+
+    <!-- looping -->
+    <ul style="background-color: aqua"; >
+        <% for(let i=1;i< 10;i++){ %>
+            
+            <li>
+                <%=i%>
+            </li>
+            
+            <% } %>
+
+    </ul>
+
+    <!-- conditional -->
+    <%if(true) {%> 
+        <h1>It is true :)</h1>
+        
+        <%}else{ %>
+            <h1>Its false :(</h1>
+            <%}%>
+
+
+</body>
+</html>
